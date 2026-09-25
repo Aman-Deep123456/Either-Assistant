@@ -1,9 +1,7 @@
 using System;
 using System.Globalization;
 using Avalonia.Data.Converters;
-
 namespace EitherAssistant.Converters;
-
 public class BoolToMessageClassConverter : IValueConverter
 {
     public object Convert(object? value, Type targetType, object? parameter, CultureInfo culture)
